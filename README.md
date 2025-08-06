@@ -21,12 +21,6 @@
 
 ---
 
-#### Other language versions of this README file:
-* [简体中文版简介](README_zh-hans.md)
-* [日本語版のREADME](README_ja-JP.md)
-
----
-
 <br />
 
 Lenovo Legion Toolkit (LLT) is a utility created for Lenovo Legion (and similar) series laptops, that allows changing a couple of features that are only available in Lenovo Vantage or Legion Zone.
@@ -67,24 +61,6 @@ You can download the program by the following ways:
   ```sh
   winget install BartoszCichecki.LenovoLegionToolkit
   ```
-
-- Using [Scoop](https://scoop.sh):
-
-  ```sh
-  scoop bucket add versions
-  ```
-
-  ```sh
-  scoop bucket add extras
-  ```
-  
-  ```sh
-  scoop install extras/lenovolegiontoolkit
-  ```
-  
-> [!TIP]
-> If you are looking for a Vantage alternative for Linux, check [LenovoLegionLinux](https://github.com/johnfanv2/LenovoLegionLinux) project out.
-
 #### Next steps
 
 LLT works best when it's running in the background, so go to Settings and enable _Autorun_ and _Minimize on close_. Next thing is to either disable Vantage and Hotkeys or just uninstall them. After that LLT will always run on startup and will take over all functions that were handled by Vantage and Hotkeys.
